@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            C.P.T.
+        </title>  
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <link  type="image/x-icon" rel="icon" href="code.jpg">
+    </head>
+    <body>
+        <section id="banner">
+            <div class="name">
+            <h1>
+                WELCOME TO OUR WEBSITE
+            </h1>
+            <h2>
+                CODING IS COOL!
+            </h2>
+            </div>
+        </section>
+        <div id="sideNav">
+            <nav>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="videos.html">VIDEOS </a></li>
+                <li><a href="downloads.html">DOWNLOADS</a></li>
+                <li><a href="projects.html">PROJECTS</a></li>
+                <li><a href="about us .html">ABOUT US</a></li>
+            </ul>
+            </nav>
+        </div>
+        <div id="logo">
+            <img src="logo.png" width="80" id="menu">
+            <script>
+                var logo = document.getElementById("logo")
+                var menu = document.getElementById("menu")
+                var sideNav = document.getElementById("sideNav")
+    
+                sideNav.style.top = "-100%"
+                logo.onclick = function(){
+                    if (sideNav.style.top == "-100%"){
+                        sideNav.style.top = "0"
+                    }
+                    else{sideNav.style.top = "-100%"
+                }
+                }
+            </script>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            C.P.T.
+        </title>  
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <link  type="image/x-icon" rel="icon" href="code.jpg">
+    </head>
+    <body>
+        <section id="dbanner">
+                <a href="https://www.python.org/ftp/python/3.10.7/python-3.10.7-amd64.exe"><img src="logo.png" alt="download python"  style="width: 250px;margin-top: 120px;border: 15px white double; margin-left: 300px;"></a>
+                <a href="https://az764295.vo.msecnd.net/insider/bb7692da16e8d4e01aea254d2f28312a673f351c/VSCodeUserSetup-x64-1.72.0-insider.exe"><img src="vs code.png" alt="download visual studio code"  style="width: 250px;border: 15px white double; margin-left: 400px;height: 250px;"></a>
+                <br>
+                <a href="https://download-cdn.jetbrains.com/python/pycharm-community-2022.2.2.exe"><img src="pycharm.png" alt="download pycharm"  style="width: 250px;border: 15px white double;margin-left: 300px;"></a>
+                <a href="https://objects.githubusercontent.com/github-production-release-asset-2e65be/33014811/3dec98c9-dc40-48f6-8fe6-5243de8a7ef5?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20221004%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221004T124458Z&X-Amz-Expires=300&X-Amz-Signature=e0f77f3acc3e30cd23c823596b00dd485bc718fe44193880cac08fb8b3ffe09e&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=33014811&response-content-disposition=attachment%3B%20filename%3Dnpp.8.4.6.Installer.x64.exe&response-content-type=application%2Foctet-stream"><img src="++.png" alt="download notepad++"  style="width: 250px;border: 15px white double;margin-left: 400px;"></a>
+        </section>
+        <div id="sideNav">
+            <nav>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="videos.html">VIDEOS </a></li>
+                <li><a href="downloads.html">DOWNLOADS</a></li>
+                <li><a href="projects.html">PROJECTS</a></li>
+                <li><a href="about us .html">ABOUT US</a></li>
+            </ul>
+            </nav>
+        </div>
+        <div id="logo">
+            <img src="logo.png" width="80" id="menu">
+            <script>
+                var logo = document.getElementById("logo")
+                var menu = document.getElementById("menu")
+                var sideNav = document.getElementById("sideNav")
+    
+                sideNav.style.top = "-100%"
+                logo.onclick = function(){
+                    if (sideNav.style.top == "-100%"){
+                        sideNav.style.top = "0"
+                    }
+                    else{sideNav.style.top = "-100%"
+                }
+                }
+            </script>
+        </div>
+    </body>
+</html>

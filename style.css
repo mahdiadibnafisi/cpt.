@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+    #banner{
+        background:linear-gradient(rgba(240, 234, 234, 0.2),rgba(1, 1, 242, 0.574)),url(background.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        opacity: 80%;
+    }
+    .name{
+        color: white;
+        float: left;
+        text-decoration: none;
+        font-size: 30px;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 10px 15px 10px 15px;
+}
+
+.name{
+  font-family: sans-serif;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 5px;
+  padding-top: 200px;
+  padding-left: 800px;
+  position: absolute;
+}
+#sideNav{
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  top: -100%;
+  background-color: blanchedalmond;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  z-index: 2;
+  transition: 0.5s;
+}
+nav ul li{
+  list-style: none;
+  margin: 50px 20px;
+  display: inline;
+}
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  display: inline;
+  font-size: 37px;
+  margin-left: 80px;
+}
+#logo{
+  top: 10px;
+  left: 5px;
+  position: fixed;
+  text-align: center;
+  border-radius: 30px;
+  z-index: 3;
+  cursor: pointer;
+  padding-right: 50px;
+}
+#dbanner{
+  background:linear-gradient(rgba(240, 234, 234, 0.2),rgba(1, 1, 242, 0.763)),url(downloads.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  opacity: 60%;
+}
+
+#abanner{
+  background:linear-gradient(rgba(240, 234, 234, 0.2),rgba(1, 1, 242, 0.574)),url(au.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  opacity: 80%;
+}
+.about{
+  width: 50%;
+  flex: 33.33%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  justify-content: space-between;  
+  margin: auto;
+}
+.us{
+  flex-basis: 50%;
+  flex: auto;
+  text-align: center;
+  border-radius: 10px;
+  color: #f2f2f2;
+  position: relative;
+}
+.us img{
+  width: auto;
+  border-radius: 50px;
+  border: 5px solid rgb(255, 252, 252);
+}
+.cpt{
+  font-family: sans-serif;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-top: 110px;
+  margin-left: 260px;
+  position: absolute;
+  color: white;
+  font-size: 45px;
+  padding: 10px 15px 10px 15px;
+  background-color: darkgray;
+}
+.overlay {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgb(0, 0, 0);
+  color: #f1f1f1;
+  width: auto;
+  transition: 0.5s;
+  opacity:0;
+  border-radius: 10px;
+  color: white;
+  font-size: 25px;
+  text-align: center;}
+  .us:hover .overlay {
+    opacity: 1;}
+    #vbanner{
+      background:linear-gradient(rgba(240, 234, 234, 0.2),rgba(1, 1, 242, 0.574)),url(videos.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      height: 370vh;
+      opacity: 80%;
+    }
+    .install{
+      width: 900px;
+      margin-top: 210px;
+      margin-left: 320px;
+      display: block;
+      position: absolute;
+      border: 5px solid white;
+    }
+    .insp{
+      color: white;
+      font-size: 40px;
+      display: inline;
+      margin-left: 350px;
+      margin-top: 120px;
+      font-family: sans-serif;
+      text-align: center;
+      overflow: hidden;
+      border-radius: 5px;
+      position: absolute;
+      text-align: center;
+      background-color: dimgray;
+      padding: 5px 5px;
+      border: 5px dashed white;
+    }
+    #pbanner{
+      background:linear-gradient(rgba(240, 234, 234, 0.2),rgba(1, 1, 242, 0.574)),url(projects.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      height: 550vh;
+      opacity: 80%;
+    }
+    .project{
+      width: 400px;
+      display: block;
+      margin-left: 470px;
+      padding: 30px;
+    }

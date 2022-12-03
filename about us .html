@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            C.P.T.
+        </title>  
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <link  type="image/x-icon" rel="icon" href="code.jpg">
+    </head>
+    <body>
+        <section id="abanner">
+            <div class="cpt">
+                <h1>
+                    C.P.T.
+                </h1>
+                <h2>
+                    CLASS PROGRAMMING TEAM
+                </h2>
+            </div>
+            <div class="about">
+                <div class="us">
+                    <img src="ebrahimi.png" alt="AYDIN EBRAHIMI" style="margin-top: 300px;">
+                    <div class="overlay">AYDIN EBRAHIMI</div>
+                </div>
+                <div class="us">
+                    <img src="adib.png" alt="MAHDI ADIB NAFISI" style="margin-top: 300px;">
+                    <div class="overlay">MAHDI ADIB NAFISI</div>
+                </div>
+                <div class="us">
+                    <img src="bh.png" alt="MOHAMMADMAHDI BANDEHHAGH" style="margin-top: 300px;">
+                    <div class="overlay">MOHAMMADMAHDI BANDEHHAGH</div>
+                </div>
+                <div class="us">
+                    <img src="akbari.png" alt="FARZAD AKBARI" style="margin-top: 3px;">
+                    <div class="overlay">FARZAD AKBARI</div>
+                </div>
+                <div class="us">
+                    <img src="adib.png" alt="AMIRHOSEIN PARTO" style="margin-top: 3px;">
+                    <div class="overlay" style="padding: 0;">AMIRHOSEIN PARTO</div>
+                </div>
+            </div>
+        </section>
+        <div id="sideNav">
+            <nav>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="videos.html">VIDEOS </a></li>
+                <li><a href="downloads.html">DOWNLOADS</a></li>
+                <li><a href="projects.html">PROJECTS</a></li>
+                <li><a href="about us .html">ABOUT US</a></li>
+            </ul>
+            </nav>
+        </div>
+        <div id="logo">
+            <img src="logo.png" width="80" id="menu">
+        </div>
+        <script>
+            var logo = document.getElementById("logo")
+            var menu = document.getElementById("menu")
+            var sideNav = document.getElementById("sideNav")
+
+            sideNav.style.top = "-100%"
+            logo.onclick = function(){
+                if (sideNav.style.top == "-100%"){
+                    sideNav.style.top = "0"
+                }
+                else{sideNav.style.top = "-100%"
+            }
+            }
+        </script>
+    </body>
+</html>
